@@ -1,0 +1,437 @@
+environment,material,location,notes
+aquatic biome [ENVO_00002030]_marine pelagic biome_NA,water,oceanic,
+ENVO:00000447_ENVO:01000007_ENVO:01000130_NA,,,check
+surface seawater,water,oceanic,check
+seawater,water,oceanic,check
+atlantic ocean plastic,water,neritic,plastic
+atlantic ocean water,water,,
+mediterranean sea plastic,substrate,,plastic
+mediterranean sea water,water,,check
+eden landing ponds san francisco ca usa,water,neritic,
+cabo rojo puerto rico,water,neritic,
+a23 p1 aerobic enrichment on pine of planktonic cells taken from a salt flat in the south bay ca,water,neritic,
+missing,,,
+bioluminescent bay la paraguera puerto rico,water,neritic,
+tt an e2 anaerobic enrichment on eucalyptus from sediment taken from thalassia testudinum beds off the bioluminescent bay near la parguera pr,substrate,neritic,sediment
+tt an m1 anaerobic enrichment on miscanthus from sediment taken from thalassia testudinum beds off the bioluminescent bay near la parguera pr,substrate,neritic,sediment
+tt an p1-techrep anaerobic enrichment on pine from sediment taken from thalassia testudinum beds off the bioluminescent bay near la parguera pr,substrate,neritic,sediment
+tt an p1 anaerobic enrichment on pine from sediment taken from thalassia testudinum beds off the bioluminescent bay near la parguera pr,substrate,neritic,sediment
+a23 p1 feedstock associated aerobic enrichment on pine of planktonic cells taken from a salt flat in the south bay ca,substrate,neritic,sediment
+tt ae e1 feedstock associated aerobic enrichment on eucalyptus from sediment taken from thalassia testudinum beds off the bioluminescent bay near la parguera pr,substrate,neritic,sediment
+tt ae p1 feedstock associated aerobic enrichment on pine from sediment taken from thalassia testudinum beds off the bioluminescent bay near la parguera pr,substrate,neritic,sediment
+pacific ocean,water,oceanic,check
+south atlantic ocean,water,oceanic,
+saanich inlet british columbia canada,water,neritic,
+monterey bay california usa,water,neritic,
+sea water,water,oceanic,check
+marine_reef_kelp forest_NA,substrate,neritic,check
+helgoland north sea atlantic ocean,water,neritic,check
+Marine_Water_NA,water,,check
+subsurface seawater from pelagic zone,water,oceanic,
+not applicable,,,
+ocean,water,oceanic,
+marine biome_open ocean_water_NA,water,oceanic,
+subseafloor crustal fluids,sediment,oceanic,
+bottom seawater,water,,check
+subseafloor crustal fluids from cork 1301a-ss,sediment,,
+seawater above cork 1362b,water,,
+seawater nearby cork 1026b,water,,
+subseafloor crustal fluids from cork 1362b-bio,sediment,,
+subseafloor crustal fluids from cork 1362a-bio-deep,sediment,,
+subseafloor crustal fluids from cork 1362a-ss-shallow,sediment,,
+marine water column,water,,check
+marine water oceanic,water,oceanic,
+harbor water,water,neritic,
+sea water_continental shelf_NA,water,neritic,
+water column,water,,check
+marine pelagic biome_ocean_NA,water,oceanic,
+marine biome [ENVO:00000447]_sea water [ENVO:00002149]_sea water [ENVO:00002149]_NA,water,oceanic,
+marine biome_marine_seawater,water,,
+marine water from a patagonian fjord,water,neritic,
+pelagic,water,oceanic,check
+ENVO:00000447_ENVO:00002042_ENVO:00002010_NA,water,oceanic,
+columbia river estuary,water,neritic,
+mediterranean sea,water,oceanic,
+south georgia island atlantic ocean,water,neritic,
+west anvers island antarctica,water,neritic,
+filter of ocean water sample,water,oceanic,
+synthetic chitin particles colonized with microbes from coastal seawater,substrate,neritic,
+fram strait south atlantic ocean,water,neritic,
+marine biome_marine biome_deep chlorophyll maximum zone in the mediterranean sea,water,oceanic,
+balearic sea spain,water,oceanic,
+south of funchal north atlantic ocean,water,oceanic,
+northeast of antigua and barbuda north atlantic ocean,water,oceanic,
+west of santa cruz de la palma atlantic ocean,water,neritic,check
+west of el salvador pacific ocean,water,oceanic,check
+east of antigua and barbuda atlantic ocean,water,oceanic,check
+southwest of acapulco mexico north pacific ocean,water,oceanic,check
+west of cabo san lucas mexico north pacific ocean,water,oceanic,check
+east of hawaii north pacific ocean,water,oceanic,check
+north pacific ocean,water,oceanic,check
+south of fiji south pacific ocean,water,oceanic,check
+north of tokelau south pacific ocean,water,oceanic,check
+south indian ocean,water,oceanic,check
+south of port of lincoln great australian bight south indian ocean,water,oceanic,check
+west of perth australia south indian ocean,water,oceanic,check
+south of eden south pacific ocean,water,oceanic,check
+east of madagascar south indian ocean,water,oceanic,check
+east of durban south africa south indian ocean,water,oceanic,check
+west of cape town south africa south atlantic ocean,water,oceanic,check
+east of rio de janeiro brazil south atlantic ocean,water,oceanic,check
+east of porto seguro south atlantic ocean,water,oceanic,check
+coastal waters,water,neritic,
+estuarine water,water,neritic,
+sea water from 250 m depth,water,oceanic,
+seawater from antarctic bottom water,water,oceanic,
+seawater from oxygen minimum zone,water,oceanic,
+marine_subseafloor aquifer_NA,sediment,oceanic,check
+marine biome_seawater_NA,water,oceanic,check
+marine biome_marine biome_mediterranean seawater enriched with a specific particulate matter,substrate,oceanic,
+sea water from the dcm zone,water,oceanic,
+seawater from antarctic intermediate water,water,oceanic,check
+ocean_ocean water_NA,water,oceanic,check
+Marine (coastal seawater)_Not applicable_NA,water,neritic,
+ocean_Oxygene Minimum Zone_NA,water,oceanic,check
+marine water sample_water column sample_NA,water,oceanic,check
+ENVO:01000048_ENVO:01000035_ENVO:00002150_NA,water,neritic,
+Marine Biome_Surface Water_Sea Water_NA,water,oceanic,check
+ENVO 01000047_ENVO 0000569_ENVO 00002150_NA,water,neritic,
+ENVO 01000043_ENVO 00000569_ENVO 00002150_NA,water,neritic,
+ENVO:01000252 freshwater lake biome_ENVO:00002042 surface water_ENVO:00000021 freshwater lake_NA,water,lake,check
+Marine_Surface_Seawater_NA,water,oceanic,check
+ENVO:00000447 for marine biome_ENVO:00002042 for surface water_ENVO:00000569 for seawater_NA,water,oceanic,check
+ENVO:00000447_ENVO:00000447_seawater_NA,water,oceanic,check
+Estuarine Biome_Surface Water_Coastal water_NA,water,neritic,
+NE Atlantic_Surface Water_Coastal water_NA,water,neritic,
+ENVO:00000447 for marine biome_ENVO:00002042 for surface water_ENVO:00002010 for seawater_NA,water,oceanic,check
+"ENVO:01000047\, MEDITERREAN SEA BIOME_ENVO:00002042\, SURFACE WATER_ENVO:00002010\, SEA WATER_NA",water,oceanic,check
+outer slope of the reef_NA,water,neritic,
+"ENVO:00000038\, LAGOON_ENVO:00002042\, SURFACE WATER_ENVO:00002019\, BRACKISH WATER_NA",water,neritic,
+"ocean\, this term applies to plant growth forms._open coast_seawater_NA",water,neritic,
+Marine_Surface water_sea water_NA,water,oceanic,check
+ENVO:00000447 MARINE BIOME_ENVO:00002042 SURFACE WATER_ENVO:00002010 SEAWATER_NA,water,oceanic,check
+Surface Water_-_NA,water,oceanic,check
+Marine biome - coastal_surface water_seawater_NA,water,neritic,
+coastal marine estuary_estuary_ocean water_NA,water,neritic,
+marine biome_surface water_seawater_NA,water,oceanic,check
+marine biome_surface water_2010_NA,water,oceanic,check
+Marine pelagic_Costal water_Surface water_NA,water,neritic,
+Surface marine water_Surface Marine water_niskin bottle_NA,water,neritic,
+1000035_2223_Deep Chlorophyll Maximum_NA,water,oceanic,check
+ENVO:01000035_ENVO:00002223_ENVO:00002042_NA,water,oceanic,check
+"ENVO:01000047 MEDITTEREAN SEA BIOME_ENVO:00002042\, SURFACE WATER_ENVO:00002010\, SEA WATER_NA",water,oceanic,check
+Marine near barrier island_Surface water_influenced by Mississippi River output_NA,water,neritic,
+ENVO:00000447_ENVO:00002042_seawater_NA,water,oceanic,check
+Marine Biome_marine Habitat_Surface water_NA,water,oceanic,check
+Meromictic lakes are unusual hydrological formations where bodies of water follow a seasonal cycle of stratifi- cation but do not mix completely._meromictic lake that communicates with the Mediterranean Sea through channels_lake_NA,water,lake,check
+"marine_At time of collection\, there was an algal bloom occurring._NA",water,oceanic,check
+Marine biome 00000447_Surface water 00002042_ 00000569_Seawater_00002010_00002149_NA,water,oceanic,check
+ENVO:00000447_ENVO:00002042_ENVO:01000301_NA,water,neritic,
+marine biome_surface water_Seawater_NA,water,oceanic,check
+marine pelagic biome_mixed surface layer_sea water_NA,water,oceanic,check
+"Atlantic Ocean_Nearshore environment\, 25' water_water_NA",water,neritic,
+Caribbean Sea_back reef environment near mesoamerican reef_water_NA,water,neritic,
+ENVO 01000047_ENVO 0000569_ENVO 00002227_NA,water,oceanic,check
+ENVO 01000047_ENVO 0000570_ENVO 00002150_NA,water,neritic,
+0_0_0_NA,,,
+Mediterranean_Mediterranean_Fridge_NA,water,,check
+ENV:00000447_ENV:00002042_ENV:00002010_NA,water,oceanic,check
+Brackish water river_connection to Chesapeake Bay Estruary_seawater_NA,water,neritic,
+"Marine environment_Belgian marine environment\, sample taken at 3 meters depth_Sterile flask_NA",water,neritic,check
+Marine_Surfacel waters_Sea Water_NA,water,oceanic,check
+marine biome_marine habitat_surface water_NA,water,oceanic,check
+ENVO:00000039_ENVO:00002150_ENVO:00002010_NA,water,oceanic,check
+ENVO:01000023_ENVO:01000080_ENVO:00002223_NA,water,oceanic,check
+This is a filtered seawater sample_Sample comes from a sea loch with a North Atlantic influence_Sterivex filter_NA,water,neritic,
+Seawater_Atlantic_seawater_NA,water,oceanic,check
+seawater_seawater_seawater_NA,water,,check
+in situ Sea Water_Iroise sea_polypropylene bottle_NA,water,,check
+ENVO:00000447 marine biome_The site is in the outerpart of the Oslofjord_ENVO:00002010 seawater_NA,water,neritic,
+ENVO:00000447 marine biome_ENVO:00002042 Surface water_ENVO:00002010 seawater_NA,water,oceanic,check
+ENVO:00000447 marine biome_Sheltered location near shore and weather station_Particulate matter on a 0.22 Um pore size filter_NA,water,neritic,
+ENVO:01000023_ENVO:00002042_ENVO:00002010_NA,water,oceanic,check
+ENVO:00000447 for marine biome_ENVO:00002151 for ocean water_ENVO:00002010 for seawater_NA,water,oceanic,check
+costal lagoon periodically connected to the Atlantic Ocean_ENVO:00002042_ENVO:00002042_NA,water,neritic,
+ENVO:marine biome_ENVO:water_Sterivex cartridges_NA,water,,check
+costal lagoon periodicay coneccted to the Atlantic Ocean_ENVO:00002042_ENVO:00002042_NA,water,neritic,
+ENVO:00000447_ENVO:00000569_ENVO:00002042_NA,water,neritic,
+"Marine environment_Belgian marine environment\, sample taken at surface_Sterile flask_NA",water,,check
+Estuary_Subtropical_Water_NA,water,neritic,
+Oceanic_Continental Shelf_Water_NA,water,neritic,
+Atlantic ocean_Fjord water_30 L Plastic container_NA,water,neritic,
+"Ocean\, Temperate\, Oligotrophic_Coastal\, North-West Mediterranean_PVDF and polycarbonate filters_NA",water,neritic,
+ENVO:0000047_ENVO:00002042_ENVO_00002010_NA,water,oceanic,check
+Mediterranean Sea:_ultra oligotropic_vv_NA,water,oceanic,check
+ENVO:00000447 marine biome_ENVO:00002042 surface water_ENVO:00002010 seawater_NA,water,oceanic,check
+ENVO:00000039_ENVO:00002151_ENVO:00002010_NA,water,oceanic,check
+ENVO:00000039_ENVO:00002042_ENVO:00002010_NA,water,oceanic,check
+ENVO:00000039_ENVO:00002002_ENVO:00002010_NA,water,oceanic,check
+ENVO:0000447_ENVO:00002149_ENVO:00002149_NA,water,neritic,
+oligotrophic_eastern Mediterranean Sea_l_NA,water,oceanic,check
+Gulf of Eilat_oligotropic_vv_NA,water,,check
+Coastal Sea area_Pelagic isothermal surface_Mesotrophic water_NA,water,neritic,
+ENVO:01000020_ENVO:00002042_ENVO.00002150_NA,water,neritic,
+ENVO:00000447_ENVO:00002042_ENVO.00002110_NA,water,oceanic,check
+water_42664_Coastal Sea area_NA,water,neritic,
+891_2042_2011_NA,water,neritic,
+ENVO: 01000023_ENVO: 00002042_ENVO: 00002149_NA,water,neritic,
+canada basinwestern arctic ocean,water,oceanic,check
+arctic ocean,water,oceanic,check
+tropical atlantic ocean,water,oceanic,check
+helgoland lter site,water,neritic,
+arctic ocean:svalbard,water,neritic,
+arctic ocean:greenland,water,neritic,
+norwegian sea,water,oceanic,check
+algal blade,substrate,,check
+sea water from surface,water,oceanic,check
+sea water from antarctic intermediate water,water,oceanic,check
+sea water from antarctic bottom water,water,oceanic,check
+seawater from north atlantic deep water,water,oceanic,check
+sea water from o2min zone,water,oceanic,check
+sea water from north atlantic deep water,water,oceanic,check
+ocean_biome_ocean_NA,water,oceanic,check
+oil contaminated seawater from sample dhos ov011,water,oceanic,oil
+oil contaminated seawater from sample dhos bm58,water,oceanic,oil
+northern atlantic ocean,water,oceanic,check
+ocean water,water,oceanic,check
+marine surface water,water,oceanic,check
+east of recife brazil south atlantic ocean,water,neritic,check
+west of cape verde atlantic ocean,water,neritic,check
+south of cape verde atlantic ocean,water,neritic,check
+north of cape verde atlantic ocean,water,neritic,check
+marine samples from north of cape verde atlantic ocean,water,neritic,check
+ocean biome_ocean_NA,water,oceanic,check
+ocean_biome_ocean_seawater,water,oceanic,check
+ocean biome_marine wind mixed layer_NA,water,oceanic,check
+marine net planktonic tow,water,oceanic,check
+marine sediment,sediment,neritic,
+pelagic ocean biome_shallow ocean water column_NA,water,oceanic,check
+deep-sea sediment,sediment,oceanic,
+Marine_Gulf of Aqaba_net tow,water,oceanic,check
+marine biome [ENVO:00000447]_microbial feature [ENVO:00002150]_coastal sea water [ENVO:00002150]_NA,water,neritic,
+ocean_offshore_seawater,water,neritic,
+environmental source,,,check
+surface water in the sea,water,oceanic,check
+Marine metagenome_marine_Seawater_NA,water,oceanic,check
+ocean_pelagic_sea water_NA,water,oceanic,check
+marine tropical coast,water,neritic,
+110 m depth southern ocean,water,oceanic,check
+marine biome [ENVO:00000447]_microbial community [PCO:1000004]_sea water [ENVO:00002149]_NA,water,oceanic,check
+estuarine biome [ENVO:01000020]_microbial community [PCO:1000004]_sea water [ENVO:00002149]_NA,water,oceanic,check
+marginal sea biome [ENVO:01000046]_microbial community [PCO:1000004]_sea water [ENVO:00002149]_NA,water,oceanic,check
+coastal wetland ecosystem [ENVO:00000230]_microbial community [PCO:1000004]_sea water [ENVO:00002149]_NA,water,oceanic,check
+neritic epipelagic zone biome [ENVO:01000042]_microbial community [PCO:1000004]_sea water [ENVO:00002149]_NA,water,oceanic,check
+marine pelagic biome [ENVO:01000023]_microbial community [PCO:1000004]_sea water [ENVO:00002149]_NA,water,oceanic,check
+mediterranean sea biome [ENVO:01000047]_microbial community [PCO:1000004]_sea water [ENVO:00002149]_NA,water,oceanic,check
+lagoon [ENVO:00000038]_microbial community [PCO:1000004]_sea water [ENVO:00002149]_NA,water,oceanic,check
+temperate marine upwelling biome [ENVO:01000860]_microbial community [PCO:1000004]_sea water [ENVO:00002149]_NA,water,oceanic,check
+oceanic epipelagic zone biome [ENVO:01000035]_marine pelagic zone [ENVO:00000208]_NA,water,oceanic,check
+coastal water mesocosm diesel,water,lab,
+coastal water mesocosm control,water,lab,
+pristine coastal water,water,neritic,
+marine,water,oceanic,check
+biofilm scrapped from cow tibia surface after nine month of incubation underwater in a fjord,substrate,neritic,
+annelid root tissue scrapped from bone surface after incubation underwater,substrate,neritic,
+annelid root tissue scrapped from turkey femur surface after nine month of incubation underwater in a fjord,substrate,neritic,
+marine biome_mariculture biome_seawater from mariculture cage of adult gilthead seabream sparus aurata,water,lab,
+"Westerlies Biome_[DCM] deep chlorophyll maximum layer (ENVO:01000326)_water (ENVO:00002006)\, including particulate matter (ENVO:01000060) such as planktonic material (ENVO:01000063)_NA",water,oceanic,
+"Westerlies Biome_[SRF] surface water layer (ENVO:00010504)_water (ENVO:00002006)\, including particulate matter (ENVO:01000060) such as planktonic material (ENVO:01000063)_NA",water,oceanic,
+"Westerlies Biome_[SRF] surface water layer (ENVO:00010504)_particulate matter (ENVO:01000060)\, including planktonic material (ENVO:01000063)_NA",water,oceanic,
+"Polar Biome_[DCM] deep chlorophyll maximum layer (ENVO:01000326)_water (ENVO:00002006)\, including particulate matter (ENVO:01000060) such as planktonic material (ENVO:01000063)_NA",water,oceanic,
+"Polar Biome_[SRF] surface water layer (ENVO:00010504)_water (ENVO:00002006)\, including particulate matter (ENVO:01000060) such as planktonic material (ENVO:01000063)_NA",water,oceanic,
+"Polar Biome_[DCM] deep chlorophyll maximum layer (ENVO:01000326)_particulate matter (ENVO:01000060)\, including planktonic material (ENVO:01000063)_NA",water,oceanic,
+"Polar Biome_[SRF] surface water layer (ENVO:00010504)_particulate matter (ENVO:01000060)\, including planktonic material (ENVO:01000063)_NA",water,oceanic,
+"marine biome (ENVO:00000447)_surface water layer (ENVO:00002042)_particulate matter\, including plankton (ENVO:xxxxxxxx)_NA",water,oceanic,
+"marine biome (ENVO:00000447)_deep chlorophyll maximum layer (ENVO:xxxxxxxx)_particulate matter\, including plankton (ENVO:xxxxxxxx)_NA",water,oceanic,
+"marine biome (ENVO:00000447)_water layer with no specific feature_particulate matter\, including plankton (ENVO:xxxxxxxx)_NA",water,oceanic,
+marine pelagic biome_ocean water_NA,water,oceanic,
+marine pelagic biome_coastal water body_NA,water,neritic,
+seawater sample,,,check
+oceanic water not far from the shore,water,neritic,
+marine_Deep Chlorophyll Maximum_water_NA,water,oceanic,
+ENVO:00000447_ENVO:01000044_ENVO:00002010_NA,water,oceanic,
+NA,,,check
+marine brine pool_brine pool_marine brine pool,water,neritic,
+hadal seawater8727m,water,oceanic,check
+hadal seawater7200m,water,oceanic,check
+abyssalpelagic seawater5367m,water,oceanic,check
+bathypelagic seawater3699m,water,oceanic,check
+bathypelagic seawater1759m,water,oceanic,check
+mesopelagic seawater1000m,water,oceanic,check
+surface seawater2m,water,oceanic,check
+seawater sample_10,water,oceanic,check
+seawater sample_9,water,oceanic,check
+seawater sample_8,water,oceanic,check
+seawater sample_7,water,oceanic,check
+seawater sample_6,water,oceanic,check
+seawater sample_46,water,oceanic,check
+seawater sample_45,water,oceanic,check
+seawater sample_44,water,oceanic,check
+seawater sample_43,water,oceanic,check
+seawater sample_42,water,oceanic,check
+seawater sample_41,water,oceanic,check
+seawater sample_5,water,oceanic,check
+seawater sample_40,water,oceanic,check
+seawater sample_39,water,oceanic,check
+seawater sample_38,water,oceanic,check
+seawater sample_37,water,oceanic,check
+seawater sample_36,water,oceanic,check
+seawater sample_35,water,oceanic,check
+seawater sample_34,water,oceanic,check
+seawater sample_33,water,oceanic,check
+seawater sample_32,water,oceanic,check
+seawater sample_31,water,oceanic,check
+seawater sample_4,water,oceanic,check
+seawater sample_30,water,oceanic,check
+seawater sample_29,water,oceanic,check
+seawater sample_28,water,oceanic,check
+seawater sample_27,water,oceanic,check
+seawater sample_26,water,oceanic,check
+seawater sample_25,water,oceanic,check
+seawater sample_24,water,oceanic,check
+seawater sample_23,water,oceanic,check
+seawater sample_22,water,oceanic,check
+seawater sample_21,water,oceanic,check
+seawater sample_3,water,oceanic,check
+seawater sample_20,water,oceanic,check
+seawater sample_19,water,oceanic,check
+seawater sample_18,water,oceanic,check
+seawater sample_17,water,oceanic,check
+seawater sample_16,water,oceanic,check
+seawater sample_15,water,oceanic,check
+seawater sample_14,water,oceanic,check
+seawater sample_13,water,oceanic,check
+seawater sample_12,water,oceanic,check
+seawater sample_11,water,oceanic,check
+seawater sample_2,water,oceanic,check
+seawater sample_1,water,oceanic,check
+marine biome ENVO:00000447 | marine pelagic zone ENVO:00000208_marine pelagic zone ENVO:00000208_dna:ds viral dna,water,oceanic,check
+marine biome ENVO:00000447 | marine pelagic zone ENVO:00000208_marine pelagic zone ENVO:00000208 | marine bathypelagic zone ENVO:00000211_dna:ds viral dna,water,oceanic,check
+coastal seawater,water,neritic,
+aged seawater collected in june 2010,water,lab,check
+seawater incubations started in august 2010,water,lab,check
+aged seawater collected in october 2011,water,lab,check
+marine metagenomes from <0.6 um incubation experiment,water,lab,check
+animal-associated habitat(ENVO:00006776)_marine benthic biome(ENVO:01000024)_NA,substrate,,check
+marine pelagic biome (ENVO:01000023)_marine pelagic feature (ENVO:01000044)_NA,water,oceanic,
+panama canal,water,neritic,
+Marine biome_Shoreline_rocky coast,water,neritic,
+"Westerlies Biome_[DCM] deep chlorophyll maximum layer (ENVO:01000326)_particulate matter (ENVO:01000060)\, including planktonic material (ENVO:01000063)_NA",water,oceanic,
+"Polar Biome_[ZZZ] marine water layer (ENVO:01000295)_water (ENVO:00002006)\, including particulate matter (ENVO:01000060) such as planktonic material (ENVO:01000063)_NA",water,oceanic,
+trichodesmium-associated heterocystous diazotroph hetda enrichment,water,lab,
+kongsfjorden arctic,water,neritic,
+synechococcus culture from coastal marine water,water,lab,
+tt ae m1 feedstock associated aerobic enrichment on miscanthus from sediment taken from thalassia testudinum beds off the bioluminescent bay near la parguera pr,substrate,lab,
+ENVO:00002149_ENVO:00002149_50m sea water,water,oceanic,check
+ENVO:00002149_ENVO:00002149_25m sea water,water,oceanic,check
+ENVO:00002149_ENVO:00002149_100m sea water,water,oceanic,check
+ENVO:00002149_ENVO:00002149_75m sea water,water,oceanic,check
+ENVO:00002149_ENVO:00002149_surface sea water,water,oceanic,check
+marine water,water,oceanic,check
+marginal sea biome_coastal water_coastal sea water column he361-02 at a depth of 3m,water,neritic,
+marginal sea biome_coastal water_coastal sea water column he361-14 at a depth of 3m,water,neritic,
+marginal sea biome_coastal water_coastal sea water column he361-13 at a depth of 3m,water,neritic,
+Marine_Water_oil polluted marine water,water,,oil
+marine biome_marine biome_mixed water column mediterranean sea,water,oceanic,check
+seaweed,substrate,neritic,
+pelagic_public,water,oceanic,
+metagenome or environmental,,,check
+seawater_marine_habitat_NA,water,,check
+coral reef_marine coral reef biome_NA,water,neritic,
+ocean_oxygen minimum zone_NA,water,oceanic,
+ocean_oxygen minimum zone_125 m water sample from station 6,water,oceanic,
+scs sea water,water,oceanic,
+seawater phytoplankton,water,oceanic,
+yellow sea free-living microorganism in bottom water,water,oceanic,
+yellow sea particle-associated microorganism in surface water,water,oceanic,
+yellow sea free-living microorganism in surface water,water,oceanic,
+yellow sea free-living microorganism in sediment,water,oceanic,
+yellow sea particle-associated microorganism in bottom water,water,oceanic,
+marine hydrothermal sediment,sediment,oceanic,
+alviso ponds san francisco ca usa,water,neritic,
+Marine_Marine_NA,water,neritic,
+norwegian sea atlantic ocean,water,oceanic,
+coal oil point santa barbara ca,water,oceanic,
+marine-water_harbor_NA,water,neritic,
+mariana trench free-living microorganism abyssal water 4000 m,water,oceanic,
+mariana trench particle-associated microorganism abyssal water 4000 m,water,oceanic,
+mariana trench free-living microorganism in surface water,water,oceanic,
+mariana trench particle-associated microorganism in surface water,water,oceanic,
+mariana trench particle-associated microorganism hadal water 10400 m,water,oceanic,
+mariana trench free-living microorganism hadal water 10500 m,water,oceanic,
+mariana trench free-living microorganism hadal water 9600 m,water,oceanic,
+mariana trench free-living microorganism hadal water 10400 m,water,oceanic,
+mariana trench particle-associated microorganism hadal water 10500 m,water,oceanic,
+marine pelagic_continental shelf_marine,water,neritic,
+seawater oxygen minimum zone,water,oceanic,
+marine biome_seawater_marine water,water,oceanic,check
+marine_ODZ_100 m water sample filtered on 0.2 um supor filter,water,oceanic,check
+marine_ODZ_90 m water sample filtered on 0.2 um supor filter,water,oceanic,check
+marine_ODZ_120 m water sample filtered on 0.2 um supor filter,water,oceanic,check
+marine_ODZ_110 m water sample filtered on 0.2 um supor filter,water,oceanic,check
+marine_ODZ_160 m water sample filtered on 0.2 um supor filter,water,oceanic,check
+marine_ODZ_140 m water sample filtered on 0.2 um supor filter,water,oceanic,check
+marine_ODZ_120 m water sample filtered on 30 um supor filter,water,oceanic,check
+marine_ODZ_100 m water sample filtered on 30 um supor filter,water,oceanic,check
+marine_ODZ_120 m water sample prefiltered with 30 um filter filtered on to 0.2 um supor filter,water,oceanic,check
+marine_ODZ_150 m water sample filtered on 30 um supor filter,water,oceanic,check
+marine_ODZ_70 m water sample filtered on 0.2 um supor filter,water,oceanic,check
+marine_ODZ_300 m water sample filtered on 0.2 um supor filter,water,oceanic,check
+marine_ODZ_180 m water sample filtered on 0.2 um supor filter,water,oceanic,check
+marine_ODZ_60 m water sample filtered on 0.2 um supor filter,water,oceanic,check
+Marine_Oceanic_NA,water,oceanic,check
+marine_oceanic pelagic zone_70 m water sample 0.2-0.8 um fraction,water,oceanic,check
+marine_oceanic pelagic zone_surface water sample 0.2-0.8 um fraction,water,oceanic,check
+marine_oceanic pelagic zone_500 m water sample 0.2-0.8 um fraction,water,oceanic,check
+marine_oceanic pelagic zone_150 m water sample 0.2-0.8 um fraction,water,oceanic,check
+coastal marine_seasonally anoxic fjord_NA,water,neritic,
+water sample from deepwater horizon oil spill plume depth 1200m treated with hexadecane in a stable-isotope probing sip experiment,water,neritic,oil
+water sample from deepwater horizon oil spill sea surface treated with treated with naphthalene in a stable-isotope probing sip experiment,water,neritic,oil
+water sample from deepwater horizon oil spill sea surface treated with treated with phenanthrene in a stable-isotope probing sip experiment,water,neritic,oil
+estuarine biome_lake_NA,water,neritic,
+marine biome [ENVO:00000447]_neritic pelagic zone biome [ENVO_01000032]_NA,water,neritic,
+oxygen minimum zone,water,oceanic,check
+marine biome[ENVO:00000447]_marine littoral zone[ENVO:01000125]_roscoff bay,water,neritic,
+marine biome[ENVO:00000447]_marine littoral zone[ENVO:01000125]_roscoff lobster tank facility,water,neritic,
+water column marine,water,,check
+marine waters,water,,check
+YBC-II_artificial_seawater_laboratory culture_non-axenic enrichment culture inoculated with trichodesmium trichomes collected from seawater,water,lab,
+marine benthos,sediment,,check
+marine ecosystem [ENVO_01001788]_coastal seawater [EVO:000002150]_NA,water,neritic,
+Ocean_Coastal ocean_NA,water,neritic,
+sediment,sediment,neritic,check
+coastal water,water,neritic,
+coral,substrate,neritic,
+non-axenic culture originally inoculated with ocean water,water,lab,
+marine biome_marine water body_NA,water,neritic,
+aliquot,,,check
+ocean biome [ENVO:01000048]_microbial feature [ENVO:01000007]_waterborne particulate matter [ENVO:01000436]_NA,water,,check
+non-axenic culture inoculated from ocean water sample,water,lab,
+seawater at 123m depth at station 3,water,neritic,
+seawater at 140m depth at station 3,water,neritic,
+seawater at 180m depth at station 3,water,neritic,
+seawater at 89m depth at station 2,water,neritic,
+seawater at 130m depth at station 2,water,neritic,
+seawater at 160m depth at station 2,water,neritic,
+seawater at 25m depth at station 1,water,neritic,
+seawater at 87.5m depth at station 1,water,neritic,
+seawater at 100m depth at station 1,water,neritic,
+aged seawater collected in august 2010,water,lab,
+marine_Black Sea_suspended particulate matter spm from the black sea western gyre,water,oceanic,
+shallow water reef,water,neritic,
+deep-sea water 2000m,water,oceanic,
+deep-sea water 3000m,water,oceanic,
+deep-sea water 3500m,water,oceanic,
+microbial community enriched from coastal seawater on a single synthetic hydrogel chitin micro-particle,substrate,neritic,
+microbial community_coastal shelf | benthic_ocean,sediment,neritic,
+marine sediment_deep sediment_NA,sediment,,check
+ENVO:00002149_ENVO:00002150_NA,water,neritic,
+marine biome [ENVO:00000447]_ocean [ENVO:00000015]_NA,water,,check
+marine intertidal biome_near-shore intertidal water column_NA,water,neritic,
+sediments,sediment,,check
+marine biome [ENVO:00001999]_coastal water body [ENVO:02000049]_NA,water,neritic,
+synechococcus sp. pcc7002 culture medium,,lab,check
+ocean water sample,water,,check
+marine biome [ENVO:00000447]_microbial feature [ENVO:00002150]_Macroalgae_NA,substrate,neritic,
+marine biome [ENVO:00000447]_microbial feature [ENVO:01000007]_coastal sediment [ENVO:03000034]_NA,sediment,neritic,
+marine biome [ENVO_00000447]|ocean biome [ENVO_01000048]_shoreline [ENVO_00000486]_NA,water,neritic,

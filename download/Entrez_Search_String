@@ -1,0 +1,7 @@
+marine[All Fields] AND "marine metagenome"[orgn] AND ("biomol dna"[Properties] AND "strategy wgs"[Properties] AND "platform illumina"[Properties] AND "strategy wgs"[Properties] OR "strategy wga"[Properties] OR "strategy wcs"[Properties] OR "strategy clone"[Properties] OR "strategy finishing"[Properties] OR "strategy validation"[Properties] AND "filetype fastq"[Properties])
+
+Downloaded acc list on:
+Fri 10 Nov 2023 06:11:14 PM MST
+
+Runs,Bytes,Bases
+8016,24.84 Tb,56.45 T
