@@ -1,0 +1,186 @@
+#!/bin/bash
+#SBATCH --time=3-00:00:00 # days-hours:minutes:seconds (or just minutes)
+#SBATCH --nodes=1
+#SBATCH -o /scratch/general/vast/Zahn/Marine_Fungi_SRA/slurm.output/slurm-%j.out-%N
+#SBATCH -e /scratch/general/vast/Zahn/Marine_Fungi_SRA/slurm.output/slurm-%j.err-%N
+#SBATCH --ntasks=24
+#SBATCH --account=uvu
+#SBATCH --partition=lonepeak
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --mail-user=zahn.geoff@gmail.com
+#SBATCH --job-name=MarineTest
+
+
+# load appropriate modules
+module load sra-toolkit
+module load fastp
+module load spades
+module load python/3.10
+module load hmmer3
+module load vsearch
+module load seqtk
+module load gsl
+module load blast
+module unload metawrap # make sure it's not loaded!
+module load bwa
+module load samtools
+
+#module load metawrap # metawrap fucks with sra-toolkit libraries (and other stuff) load it later
+
+# add metawrap to PATH
+export PATH=$PATH:/uufs/chpc.utah.edu/common/home/u6033249/metaWRAP/bin/
+
+
+# set up file paths
+acc=REPLACE_ME # bioproject (loop through this...or separate slurm for each)
+
+
+dl_dir=/scratch/general/vast/Zahn/Marine_Fungi_SRA/sra_data
+qc_dir=$dl_dir/$acc.qc
+ass_dir=/scratch/general/vast/Zahn/Marine_Fungi_SRA/assemblies
+mkdir -p $qc_dir
+bin_dir=/scratch/general/vast/Zahn/Marine_Fungi_SRA/bins
+
+
+# absolute path to itsxpress and metawrap executables
+itsxpress=/uufs/chpc.utah.edu/common/home/u6033249/miniconda3/bin/itsxpress
+metawrap=/uufs/chpc.utah.edu/common/home/u6033249/metaWRAP/bin/metawrap
+metawrap_config=/uufs/chpc.utah.edu/common/home/u6033249/metaWRAP/bin/config-metawrap
+
+# get list of SRA runs that passed metadata checks from that bioproject
+grep $acc /scratch/general/vast/Zahn/Marine_Fungi_SRA/metadata/passing_project-run_table.csv | cut -d "," -f2 > $dl_dir/$acc.runlist
+
+
+
+# go to output dir
+mkdir -p $dl_dir/$acc
+cd $dl_dir/$acc
+
+# download each passing run from the bioproject
+while read run;
+do
+fasterq-dump $run --threads 12 --split-3 --outdir $dl_dir/$acc
+done < $dl_dir/$acc.runlist
+
+
+
+# get list of fwd files
+ls -1 | grep "_1.fastq" > $dl_dir/$acc/$acc.fwds
+
+# in while-loop: #########################
+# qc and merge
+
+
+echo "QC start..."
+
+while read line;
+do
+F=$line
+R=${line/_1/_2}
+Fout=${line%%.fastq}.qc.fq
+Rout=${R%%.fastq}.qc.fq
+Mout=${F%%_1.fastq}.merged.fq
+
+# QC and merging
+fastp -i $F -I $R -o $Fout -O $Rout -V --detect_adapter_for_pe \
+--cut_front --cut_mean_quality 20 --n_base_limit 0 \
+--average_qual 20 --correction --json /dev/null --html /dev/null
+done < $dl_dir/$acc/$acc.fwds
+
+echo "QC end..."
+
+# move successful qc reads to new directory
+mv *.qc.fq $qc_dir
+
+
+# enter qc dir
+cd $qc_dir
+
+# loop through files, processing each separately ####
+# assemble contigs
+# find fungal ITS reads from contigs
+# bin contigs
+# check bins
+
+echo "SPADES starting ..."
+
+for run in $(ls -1 $qc_dir/*1.qc.fq);
+do
+sra_run=$(basename ${run%%_1.qc.fq})
+out=$ass_dir/$sra_run
+mkdir $out
+
+qc_fwd=$run
+qc_rev=${run/_1.qc.fq/_2.qc.fq}
+
+# run metaspades
+metaspades.py -t 24 -1 $qc_fwd -2 $qc_rev -o $out
+
+# add dummy quality scores and mv contigs to outdir
+seqtk seq -F '#' $out/contigs.fasta > $out/contigs.fastq
+seqtk seq -A $out/contigs.fastq > $out/contigs.fasta
+
+# run itsxpress to search for fungal barcodes in contigs
+#$itsxpress -f $out/contigs.fastq -s --taxa Fungi --region ALL -o $out/contigs_ITS1-2.fastq --log /dev/null --threads 24
+
+
+# rename so that fucking metawrap can handle the files (gotta be _1.fastq _2.fastq exactly)
+mv $qc_fwd ${qc_fwd/.qc.fq/.fastq}
+mv $qc_rev ${qc_rev/.qc.fq/.fastq}
+qc_fwd=${run/_1.qc.fq/_1.fastq}
+qc_rev=${run/_1.qc.fq/_2.fastq}
+
+echo "about to try indexing $out/contigs.fastq with bwa standalone"
+bwa index $out/contigs.fasta
+
+# bin reads ####
+module load metawrap # load metawrap at this point
+
+# set up CheckM
+checkm_db="/scratch/general/vast/Zahn/checkm/"
+echo ${checkm_db} | checkm data setRoot ${checkm_db}
+
+metawrap --config-file $metawrap_config binning -t 24 -m 250 --universal --metabat2 --concoct --maxbin2 -a $out/contigs.fasta -o $bin_dir/$sra_run $qc_fwd $qc_rev
+
+
+# refine bins ####
+
+metabat_dir=$bin_dir/$sra_run/metabat2_bins
+maxbin_dir=$bin_dir/$sra_run/maxbin2_bins
+concoct_dir=$bin_dir/$sra_run/concoct_bins
+refined_dir=$bin_dir/$sra_run/refined_bins
+
+metawrap --config-file $metawrap_config bin_refinement -o $refined_dir -t 24 -A $metabat_dir -B $maxbin_dir -C $concoct_dir -c 50 -x 10 --skip-checkm
+
+# classify bins ####
+# not using checkM, just local metawrap. Fuck, they did a poor job of building metawrap so that
+# only an admin can change the database locations!
+
+module unload metawrap
+export PATH=$PATH:/uufs/chpc.utah.edu/common/home/u6033249/metaWRAP/bin/
+
+consolidated_bins_dir=$refined_dir/work_files/binsABC
+
+metawrap --config-file $metawrap_config classify_bins -b $consolidated_bins_dir -o $bin_dir/$sra_run/bin_classification
+
+
+
+
+
+# Cleanup file bloat, only keeping contigs and bins (compressed)
+gzip $out/contigs.fasta
+mv $out/contigs.fasta.gz $ass_dir/$sra_run.contigs.fasta.gz
+rm -r $ass_dir/$sra_run/
+
+gzip $consolidated_bins_dir/*
+mv $consolidated_bins_dir $bin_dir/$sra_run.bins
+rm -r $bin_dir/$sra_run/
+
+
+
+done
+
+rm -r $dl_dir/$acc
+rm -r $qc_dir
+
+# Be sure to download all bins and contigs to a safe external drive for storage after each batch of runs
