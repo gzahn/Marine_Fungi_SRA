@@ -1,3 +1,5 @@
 .Renviron
 .Rproj.user/*
 .Rproj.user
+metadata/project_parts/
+metadata/testprojects
